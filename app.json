@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "growagarden-mobile-app",
+    "name": "Grow a Garden Stock",
     "slug": "growagarden-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.gewinum.growagardenmobileapp"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +34,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0f5757ca-c24d-434d-974e-ca6c35435368"
+      }
     }
   }
 }
